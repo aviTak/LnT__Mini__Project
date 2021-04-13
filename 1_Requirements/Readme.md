@@ -65,7 +65,7 @@ This problem may cause ineffective management and hence there can be a huge amou
 | 4 | User shall be able to delete a book record | Implemented |
 | 5 | User shall be able to save records in a file | Implemented |
 | 6 | User shall be able to read data from a file | Implemented |
-| 7 | Data should not be lost in case of faliure | Future |
+| 7 | Data should not be lost in case of failure | Future |
 | 8 | Data should always be stored when closing the system | Future |
 
 
