@@ -19,15 +19,14 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`ABC` | 12345678  | Feature A, B etc    | X No     | X No   |X No   |X No     
-`DEF` | 12345678  | Feature C, D etc    | X No     | X No   |X No   |X No     
+256171 | Avi Takiyar  | All features    | No     | No   | 5   | All     
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
-3. ...
-4. ...
+1. The purpose of the LIBRARY MANAGEMENT SYSTEM is mainly to provide automation to the library. 
+2. The categories of users provided are :
+   1. Librarian: He can read or write the information about any member and can update, delete or create a membership plan.
+   2. Member: He can get a book issued.
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
