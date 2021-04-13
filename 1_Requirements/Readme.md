@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
- --- TBD 
+This project “Library Management System In C Programming” is complete and totally-error free clean code. The main goal of this project is to add books, view books, search books, edit books record and delete books within this system. It is named as “Library Management System”.
 
 ## Research
 ![Description](Link to Pic)
