@@ -53,7 +53,7 @@ error_t PrintLink(book*h);
  * @param book
  */
 
-error_t delete(book*h);
+error_t Delete(book*h);
 
 /**
  * @brief Insert the revords

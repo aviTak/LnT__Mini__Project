@@ -27,7 +27,7 @@ void test_Insert(){
 
 void test_Delete(){
   book h = {"Ayushi-2", "sdfdf3", "999999"};
-  TEST_ASSERT_EQUAL(SUCCESS, delete(&h));
+  TEST_ASSERT_EQUAL(SUCCESS, Delete(&h));
 }
 
     

@@ -25,7 +25,7 @@ void choose(book*h)
 				Search2(h);
 				break;
 		case 5:
-				delete(h);
+				Delete(h);
 				break;
 		case 6:
 				PrintLink(h);
