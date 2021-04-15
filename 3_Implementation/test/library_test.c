@@ -16,17 +16,17 @@ void tearDown()
 
 
 void test_Display(){
-  book h = {"Ayushi's Autobiography", "sdfd433", "999999"};
+  book h = {"Ayushi-1", "sdfd433", "999999"};
   TEST_ASSERT_EQUAL(SUCCESS, PrintLink(&h));
 }
 
 void test_Insert(){
-  book h = {"Ayushi's Biography", "sdfg433", "999999"};
+  book h = {"Ayushi-1", "sdfg433", "999999"};
   TEST_ASSERT_EQUAL(SUCCESS, insert(&h));
 }
 
 void test_Delete(){
-  book h = {"Ayushi's Biography", "sdfdf3", "999999"};
+  book h = {"Ayushi-2", "sdfdf3", "999999"};
   TEST_ASSERT_EQUAL(SUCCESS, insert(&h));
 }
 
