@@ -41,5 +41,58 @@ typedef struct Book{
 }book;
 
 
+/**
+ * @brief Display the records
+ * @param book
+ */
+
+error_t PrintLink(book*h);
+
+/**
+ * @brief Delete the records
+ * @param book
+ */
+
+error_t delete(book*h);
+
+/**
+ * @brief Insert the revords
+ * @param book
+ */
+
+error_t insert(book*h);
+
+/**
+ * @brief Choose the option
+ * @param book
+ */
+
+void choose(book*h);
+
+/**
+ * @brief Display menu
+*/
+
+/**
+ * @brief Great Link
+*/
+
+book*GreatLink();
+
+void menu();
+
+/**
+ * @brief Search the records
+ * @param book
+ */
+
+void Search1(book*h);
+
+/**
+ * @brief Search the records
+ * @param book
+ */
+
+void Search2(book*h);
 
 #endif
