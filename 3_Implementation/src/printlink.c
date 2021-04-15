@@ -1,6 +1,6 @@
 #include "header.h"
 
-void PrintLink(book*h)// output
+error_t PrintLink(book*h)// output
 {
 	book*p;
 	printf("Book Title \ tISBN \ tPrice \ n");
@@ -11,5 +11,5 @@ void PrintLink(book*h)// output
 		printf("%s\t", p->date.price);
 		printf("\n");
 	}
-
+	return SUCCESS;
 }

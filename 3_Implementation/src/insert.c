@@ -1,6 +1,6 @@
 #include "header.h"
 
-void insert(book*h)// insert (head insertion method)
+error_t insert(book*h)// insert (head insertion method)
 {
 	book*p;
 		p = (book*)malloc(sizeof(book));
@@ -12,5 +12,7 @@ void insert(book*h)// insert (head insertion method)
 		scanf("%s", &p->date.price);
 		p->next = h->next;
 		h->next = p;
+
+		return SUCCESS;
 	
 }

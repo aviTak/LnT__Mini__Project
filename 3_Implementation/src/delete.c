@@ -1,6 +1,6 @@
 #include "header.h"
 
-void delete(book*h)
+error_t delete(book*h)
 {
 	char ISBN[20];// Delete by ISBN because ISBN is unique
 	book*p = h->next;
@@ -21,4 +21,5 @@ void delete(book*h)
 			return;
 		}
 	}
+	return SUCCESS;
 }

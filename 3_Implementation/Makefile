@@ -1,11 +1,15 @@
 # Output Files
 BUILD = build
+PROJECT_NAME = Library
 
 # All test source files
 
-TEST_SRC = src\bill.c src\showLogo.c \
-src\foodlist.c src\InsertAtEnd.c src\main.c src\order.c \
-test/test_Food_Order_Mgmt.c \
+SRC = src\delete.c src\insert.c \
+src\main.c src\menu.c src\printlink.c src\search1.c src\search2.c \
+
+TEST_SRC = src\delete.c src\insert.c \
+src\main.c src\menu.c src\printlink.c src\search1.c src\search2.c \
+test/library_test.c \
 unity/unity.c\
 
 ifdef OS
