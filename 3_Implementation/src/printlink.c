@@ -3,7 +3,7 @@
 error_t PrintLink(book*h)// output
 {
 	book*p;
-	printf("Book Title \ tISBN \ tPrice \ n");
+	printf("Book Title tISBN tPrice \n");
 	for (p = h->next; p != NULL; p = p->next)
 	{
 		printf("%s\t",p->date.name);

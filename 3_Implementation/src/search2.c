@@ -14,13 +14,13 @@ void Search2(book*h)// ISBN search
 		}
 		else
 		{
-			printf("Book Title \ tISBN \ tPrice \ n");
+			printf("Book Title tISBN tPrice \n");
 			printf("%s\t%s\t%s\n", p->date.name, p->date.ISBN, p->date.price);
 			return;
 		}
 	}
 	if (p == NULL)
 	{
-		printf("Not found! \ N");
+		printf("Not found! \n");
 	}
 }

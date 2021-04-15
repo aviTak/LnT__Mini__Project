@@ -18,7 +18,7 @@ error_t delete(book*h)
 		{
 			tail->next = p->next;
 			free(p);
-			return;
+			return SUCCESS;
 		}
 	}
 	return SUCCESS;

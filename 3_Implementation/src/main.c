@@ -16,7 +16,7 @@ void choose(book*h)
 			h=GreatLink();
 			break;
 		case 2:
-			Insert(h);
+			insert(h);
 			break;
 		case 3:
 			Search1(h);
@@ -31,7 +31,7 @@ void choose(book*h)
 				PrintLink(h);
 				break;
 		default:
-			printf("Invalid command! \ N");
+			printf("Invalid command! \n");
 				a = -1;// jump out of the loop condition 
 				break;
 			}
