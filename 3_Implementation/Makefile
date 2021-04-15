@@ -3,7 +3,7 @@ PROJECT_NAME = Library
 TEST_PROJ_NAME = Test_$(PROJECT_NAME)
 # All source code files
 SRC = src/delete.c src/insert.c \
-src/main.c src/menu.c src/printlink.c src/search1.c src/search2.c \
+src/main.c src/menu.c src/printlink.c src/search1.c src/search2.c src/greatLink.c \
 
 # Output Files
 BUILD = build
@@ -11,7 +11,7 @@ BUILD = build
 # All test source files
 
 TEST_SRC = src/delete.c src/insert.c \
-src/menu.c src/printlink.c src/search1.c src/search2.c \
+src/menu.c src/printlink.c src/search1.c src/search2.c src/greatLink.c \
 test/library_test.c \
 unity/unity.c\
 
